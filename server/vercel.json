@@ -1,0 +1,15 @@
+  {
+    "build": {
+      "env": {
+        "OUTPUT_DIRECTORY": "target/static",
+        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64",
+        "MAVEN_OPTS": "-Dmaven.compiler.release=17"
+      }
+    },
+    "functions": {
+      "api/**/*.js": {
+        "runtime": "nodejs18.x"
+      }
+    }
+  }
+  
